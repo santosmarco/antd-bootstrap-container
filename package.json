@@ -1,6 +1,6 @@
 {
   "name": "antd-bootstrap-container",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Container component that implements Bootstrap's logic, built for Ant Design",
   "keywords": [
     "react",
@@ -20,7 +20,7 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf dist && tsc"
   },
   "dependencies": {
     "react": "^17.0.2"
